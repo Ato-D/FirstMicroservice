@@ -28,6 +28,16 @@ services:
       - postgres
     restart: unless-stopped
 
+#eureka-server:
+#  image: amigoscode/eureka-server:latest
+#  container_name: eureka-server
+#  ports:
+#    - "8761:8761"
+#  environment:
+#    - SPRING_PROFILES_ACTIVE=docker
+#  networks:
+#    - spring
+
 networks:
   postgres:
     driver: bridge

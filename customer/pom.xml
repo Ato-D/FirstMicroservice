@@ -31,6 +31,16 @@
                 <artifactId>postgresql</artifactId>
                 <scope>runtime</scope>
             </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            </dependency>
+<!--            <dependency>-->
+<!--                <groupId>org.springframework.cloud</groupId>-->
+<!--                <artifactId>spring-cloud-netflix-eureka-client</artifactId>-->
+<!--&lt;!&ndash;                <version>3.0.3</version>&ndash;&gt;-->
+<!--            </dependency>-->
+
         </dependencies>
 
 </project>
